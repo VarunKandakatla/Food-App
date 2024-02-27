@@ -1,0 +1,104 @@
+body{
+    margin : 0px;
+    padding : 0px;
+}
+
+#header{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top:0px;
+    left:0px;
+    right:0px;
+    border-bottom: 1px solid black;
+    
+}
+
+#nav-items{
+    list-style: none;
+    display: flex;
+}
+
+#nav-items li{
+    margin: 0px 35px;
+}
+
+li:hover{
+    cursor: pointer;
+    color:rgb(247, 0, 41)
+}
+
+#logo:hover{
+    background-color: pink;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#logo{
+    margin: 0px 8px;
+    width : 40px;
+    height: 40px;
+}
+
+#input{
+    text-align: center;
+    margin: 20px;
+}
+
+#search{
+    margin: 10px;
+}
+
+#body-container{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}   
+
+#card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 90%;
+    /* border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10px; */
+   
+}
+
+#card{
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 220px;
+}
+
+#footer{
+    background-color: aquamarine;
+    height: 40px;
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+    left:0px;
+    right:0px;
+    margin-bottom: 0px;
+}
+
+#footer p{
+    padding: 10px 0px;
+}
+
+#card img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+#card:hover{
+    /* border:1px solid gray; */
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 2px rgba(224, 230, 230, 0.701);
+}

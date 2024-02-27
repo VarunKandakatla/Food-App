@@ -1,0 +1,20 @@
+{
+  "name": "day-4",
+  "version": "1.0.0",
+  "description": "Just learning React with Akshay Saini",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html"
+  },
+  "author": "Varun Kandakatla",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
+  }
+}
