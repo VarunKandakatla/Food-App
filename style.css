@@ -14,7 +14,6 @@ body{
     right:0px;
     border-bottom: 1px solid black;
     z-index: 1000;
-    
 }
 
 #nav-items{
@@ -148,4 +147,9 @@ li:hover{
     border-radius: 8px;
     /* transform: translate(-50%-50%); */
    
+}
+
+.btn{
+    margin: 10px 10px;
+    cursor: pointer;
 }
