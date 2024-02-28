@@ -13,6 +13,7 @@ body{
     left:0px;
     right:0px;
     border-bottom: 1px solid black;
+    z-index: 1000;
     
 }
 
@@ -45,6 +46,13 @@ li:hover{
 #input{
     text-align: center;
     margin: 20px;
+    background-color: white;
+    width: 100%;
+
+    position: sticky;
+    top:50px;
+    left:0px;
+    right:0px;
 }
 
 #search{
@@ -56,6 +64,7 @@ li:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }   
 
 #card-container{
@@ -101,4 +110,42 @@ li:hover{
     /* border:1px solid gray; */
     cursor: pointer;
     box-shadow: 1px 1px 1px 2px rgba(224, 230, 230, 0.701);
+}
+
+#banner{
+    background-image: url("https://images.pexels.com/photos/1435895/pexels-photo-1435895.jpeg");
+    width: 100%;
+    height: 400px;
+    background-size:cover;
+    background-position: center;
+    border: 1px solid black;
+    margin:0px;
+}
+
+#banner h1{
+    text-align: center;
+    position: absolute;
+    top:30%;
+    left:40%;
+    transform: translate(-50%-50%);
+    font-size: 60px;
+    color:rgb(255, 127, 234);
+    font-weight: 900;
+    background-color: rgba(9, 0, 0, 0.831);
+    padding: 12px;
+    border-radius: 15px;
+    margin: 0px;
+}
+
+#banner p{
+    font-size: medium;
+    text-align: center;
+    position: absolute;
+    top:45%;
+    left:42%;
+    background-color:aquamarine ;
+    padding: 5px;
+    border-radius: 8px;
+    /* transform: translate(-50%-50%); */
+   
 }

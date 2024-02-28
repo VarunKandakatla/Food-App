@@ -28,6 +28,7 @@ const NavItems = () =>{
 
 const Cards = (props) =>{
     const{attr} = props;
+    // props.attr.restaurantName
     return(
         <div id='card'>
             <img alt='img' src={attr.imageLink}></img>
@@ -209,6 +210,7 @@ const Body = () => {
                     dataList().map((hotel)=>{
                         return <Cards key={count++} attr={hotel}/>
                     })
+                    // forLoop()
                 }
             </div>
         </div>
@@ -216,6 +218,28 @@ const Body = () => {
         
     )
 
+}
+
+// const forLoop = () =>{
+//     list = dataList();
+//     newList=[];
+
+//     for(i=0;i<list.length;i++)
+//     {
+//         console.log(list[i]);
+//          newList.push(<Cards key={i} attr={list[i]}/>)
+//     }
+
+//     return newList;
+// }
+
+const Banner = () =>{
+    return (
+        <div id="banner">
+            <h1>Welcome!</h1>
+            <p>The Largest Food Daily App!</p>
+        </div>
+    )
 }
 
 const Footer = () =>{
@@ -232,6 +256,7 @@ const App = () =>{
     return (
     <div>
         <Header/>
+        <Banner/>
         <Body/>
         <Footer/>
     </div>
