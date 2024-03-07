@@ -52,10 +52,12 @@ li:hover{
     top:50px;
     left:0px;
     right:0px;
+    
 }
 
 #search{
     margin: 10px;
+    padding: 8px;
 }
 
 #body-container{
@@ -101,8 +103,9 @@ li:hover{
 
 #card img{
     width: 100%;
-    height: 200px;
+    height: 150px;
     border-radius: 10px;
+    border: 3px solid black;
 }
 
 #card:hover{
@@ -152,4 +155,100 @@ li:hover{
 .btn{
     margin: 10px 10px;
     cursor: pointer;
+    padding: 8px;
+}
+
+#shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#inner-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 80%;
+   
+}
+
+#inner-container> div{
+
+    background-color: #969393b6;
+    height: 300px;
+    width: 220px;
+    margin: 15px;
+    animation: colorChange 1s infinite alternate;
+    /* padding: 15px;
+    border-radius: 10px;
+    width: 220px; */
+}
+
+a {
+    text-decoration: none;
+}
+
+#nav-items a{
+    color: black;
+}
+
+#resMenu{
+    margin: 8px;
+    padding:8px;
+}
+
+
+@keyframes colorChange {
+    0%{
+        background-color: rgba(128, 128, 128, 0.176);
+    }
+    100%{
+        background-color: rgba(185, 235, 223, 0.354);
+    }
+}
+
+/* Card Designing */
+
+#resTitle{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:blue;
+    margin-bottom: 0px;
+}
+
+#cuisines-box{
+    display: flex;
+    margin-bottom: 0px;
+}
+
+#cuisines{
+    font-style: italic;
+    color:darkcyan;
+    margin-left: 5px;
+}
+
+#area-box{
+    /* display: flex; */
+    /* justify-content: space-evenly;
+    margin: 4px;
+    align-items: center; */
+}
+
+#area{
+    font-weight: 300;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: teal;
+}
+
+#area-box > button{
+    background-color: rgb(211, 248, 1);
+    border-radius: 8px;
+    margin: 3px;
+    padding: 0px 15px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#rating{
+    margin: 0px;
 }

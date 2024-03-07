@@ -1,4 +1,4 @@
-import { CARD_URL } from "./constants";
+import { CARD_IMG } from "./constants";
 
 const dataList = () => {
    restaurantList = [
